@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+#header{
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid grey;
+  background: rgba(0, 0, 0, 0.534);
+  z-index: 99;
+}
+#modal{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 150px;
+  padding-left: 450px;
+  .modal{
+    position: relative;
+    width: 332px;
+    height: 200px;
+    background: rgb(47, 202, 33);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input{
+      width: 321px;
+      height: 60px;
+      outline: none;
+      padding: 10px 20px;
+      color: black;
+      font-size: 20px;
+      font-weight: 700;
+      }
+      button{
+        width: 321px;
+        height: 60px;
+        border: 2px solid white;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        
+        
+        }
+        }
+        }
+        #main{
+          .main{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 433px 431px  432px;
+  }
+}
+
+.mainCart{
+  display: flex;
+  align-items: center;  
+  .cartMain{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+}
+
+
+
+/* basket */
+.basket{
+   padding-top: 30px;
+}
+.basspan{
+  position: absolute;
+  top: 8px;
+  background: transparent;
+  right: 145px;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+font-weight: 600;
+}
+.uli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+a{
+  color: white;
+  font-size: 20px;
+
+}
+}
+
+.btnsprice{
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  .btnplus:hover{
+    background: red;
+    border: none;
+    color: white;
+  }
+}
+.btnminus:hover{
+  background: blue;
+  border: none;
+  color: white;
+}
+/* basket */
+.favblock{
+  position: relative;
+  width: 100%;
+  
+}
+.favspan{
+  position: absolute;
+  background: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding-top: -10px;
+  color: white;
+  top: -15px;
+  right: -10px;
+}
+.inpToTltg{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .inps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid grey;
+    gap: 30px;
+    padding: 10px;
+    input{
+      border: 2px solid grey;
+      padding: 10px 20px;
+      width: 301px;
+      height: 50px;
+      outline: none;
+      color: grey;
+    }
+    button{
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      font-size: 24px;
+      padding: 10px 20px;
+      width: 301px;
+      height: 50px;
+      background: orange;
+    }
+  }
+}
+/*  */
+
+
+
+.btn2{
+
+  background: red;
+}

@@ -1,0 +1,33 @@
+#Obj{
+    padding-top: 50px;
+}
+.obj{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    input{
+        border: 2px solid grey;
+        border-radius: 10px;
+        padding: 10px 20px; 
+        width: 321px;
+        height: 60px;
+        outline: none;
+
+    }
+    button{
+        width: 321px;
+        height: 60px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        background: orange;
+        outline: none;
+        color: white;
+        border: none;
+        font-size: 21px;
+        font-weight: 600;
+    }
+}
